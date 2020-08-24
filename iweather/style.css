@@ -1,0 +1,155 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0; 
+    margin: 0;
+    background-color: #596269;
+    display: grid;
+    place-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-container {
+    position: relative;
+}
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+.weather-card {
+    position: relative;
+    padding: 40px 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.5);
+}
+
+.degree-container {
+    margin: 80px 0px;
+    box-sizing: border-box;
+}
+
+.degree-container > * {
+    display: block;
+}
+
+.d-value {
+    font-size: 100px;
+    line-height: 98px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.d-details {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.daily-container {
+    margin-top: 100px;
+    letter-spacing: 0.4px;
+    box-sizing: border-box;
+}
+
+.daily-card {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.daily-title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.daily-value {
+    font-size: 13px;
+}
+
+.weather-icon > img {
+    width: 20px;
+    margin-top: 5px;
+}
+
+.weather-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #74b9ff;
+    z-index: 1;
+}
+
+.sun {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    background-color: #fbc531;
+    opacity: 0.9;
+    content: " ";
+    -webkit-box-shadow: 0px 0px 119px 22px rgba(251,197,49,1);
+    -moz-box-shadow: 0px 0px 119px 22px rgba(251,197,49,1);
+    box-shadow: 0px 0px 119px 22px rgba(251,197,49,1);
+    filter: blur(5px);
+    -moz-filter: blur(5px);
+}
+
+.weather-card-bg > * {
+    filter: blur(10px);
+    -moz-filter: blur(10px);
+}
+
+.cloud {
+    position: absolute;
+}
+
+.cloud#pos1 {
+    width: 250px;
+    top: -80px;
+    left: 35%;
+    opacity: 0.8;
+}
+
+.cloud#pos2 {
+    width: 180px;
+    right: -40px;
+    top: 10%;
+}
+
+.cloud#pos3 {
+    width: 140px;
+    left: -10px;
+    top: 20%;
+    opacity: 0.8;
+}
+
+.weather-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    opacity: 0.1;
+    z-index: 2;
+    filter: blur(10px);
+}
+
+.weather-card-content {
+    position: relative;
+    z-index: 3;
+}
