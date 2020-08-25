@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="side-container">
+        <div class="side-bg">
+          <img src="./assets/side-bg.jpg" />
+        </div>
+
+        <div class="side-content">
+          <div id="logo"><h1>Empire</h1><div id="logo-dot"></div></div>
+
+          <p id="slogan">
+            Join the dark side.<br />
+            We have cookies.
+          </p>
+
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Imprint</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="login-container">
+        <form>
+          <div class="input-group">
+            <label for="username">USERNAME</label>
+            <input type="text" id="username" name="reg_username" />
+          </div>
+
+          <div class="input-group">
+            <label for="email">E-MAIL</label>
+            <input type="text" id="email" name="reg_email" />
+          </div>
+
+          <div class="input-group">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="reg_password" />
+          </div>
+
+          <div class="input-group">
+            <label for="confirm_password">REPEAT PASSWORD</label>
+            <input
+              type="password"
+              id="confirm_password"
+              name="reg_confirm_password"
+            />
+          </div>
+
+          <div class="button-group">
+            <button>SIGN UP NOW</button>
+            <a class="sign-up" href="#">I am already a member</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
