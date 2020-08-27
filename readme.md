@@ -10,15 +10,15 @@ My collection of front-end html, css and js code. Implementing UI design to fron
 
 ## Project Showcase
 
-### [IWeather](https://github.com/Attaaa/Daily-Front-end/tree/master/iweather)
+### [IWeather](./iweather)
 
 ![IWeather](./_thumbnail_/iweather.png)
 
-### [Empire Login](https://github.com/Attaaa/Daily-Front-end/tree/master/empire-login)
+### [Empire Login](./empire-login)
 
 ![Empire Login](./_thumbnail_/empire-login.png)
 
-### [Dashboard Landing Page](./dash-landing-page)
+### [Dash Landing Page](./dash-landing-page)
 
 ![Dash Landing Page](./_thumbnail_/dash-landing-page.png)
 
