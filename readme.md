@@ -6,6 +6,7 @@ My collection of front-end html, css and js code. Implementing UI design to fron
 
 * [IWeather](#iweather)
 * [Empire Login](#empire-login)
+* [Dash Landing Page](#dash-landing-page)
 
 ## Project Showcase
 
@@ -16,4 +17,8 @@ My collection of front-end html, css and js code. Implementing UI design to fron
 ### [Empire Login](https://github.com/Attaaa/Daily-Front-end/tree/master/empire-login)
 
 ![Empire Login](./_thumbnail_/empire-login.png)
+
+### [Dashboard Landing Page](./dash-landing-page)
+
+![Dash Landing Page](./_thumbnail_/dash-landing-page.png)
 
